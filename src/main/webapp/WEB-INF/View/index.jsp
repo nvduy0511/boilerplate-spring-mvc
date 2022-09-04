@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/boilerplate-spring-mvc/home">
+	<form action="/boilerplate_spring_mvc_war/home">
 		<label for="fname">User name:</label><br> <input type="text"
 			id="fname" name="fname" value="Nguyen Van Duy"><br> <label
 			for="fpass">Pass word:</label><br> <input type="password"
