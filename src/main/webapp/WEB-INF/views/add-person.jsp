@@ -12,11 +12,15 @@
     <title>Person Page</title>
 </head>
 <body>
-<h2>Employee</h2>
+<h2>Person</h2>
 <form:form method="POST" action="view-person" modelAttribute="person">
-    Id: <form:input path="id" />
+    <form:label cssClass="title" cssErrorClass="title error" cssStyle="margin-right: 28px" path="id" >Id</form:label>
+    <form:input path="id" cssStyle="margin-bottom: 10px"/>
     <br/>
-    Name: <form:input path="name" />
+    <form:label cssClass="title" cssErrorClass="title error"
+                path="name" >Name</form:label>
+    <form:input path="name" id="p_name" cssStyle="margin-bottom: 10px"/>
+    <br/>
     <input type="submit" value="Submit" />
 </form:form>
 </body>

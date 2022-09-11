@@ -6,4 +6,4 @@ target
 .settings
 src/main/webapp/META-INF
 .idea
-*.iml
+*.imlr
