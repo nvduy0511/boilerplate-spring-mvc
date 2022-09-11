@@ -1,6 +1,6 @@
 package com.boilerplatespringmvc.model;
 
-public class People {
+public class Person {
     private String id;
     private String name;
 
