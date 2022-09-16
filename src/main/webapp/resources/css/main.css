@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    background-image: url("../img/img_bg.png");
+    background-size: 100% 100%;
+    height: 0;
+    padding-bottom: 24%;
+    position: relative;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 20px orangered;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+nav {
+    line-height: 40px;
+    background-color: orangered;
+}
+
+nav a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+article {
+    min-height: 300px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+aside {
+    min-height: 300px;
+    width: 25%;
+    background-color: cyan;
+    float: left;
+}
+footer{
+    min-height: 50px;
+    background-color: orangered;
+    border-top: 5px double gray;
+    clear: both;
+}
