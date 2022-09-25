@@ -19,6 +19,14 @@
     <bean class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
       <property name = "prefix" value = "/WEB-INF/views/" />
       <property name = "suffix" value = ".jsp" />
-   	</bean>		
-  
+   	</bean>
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- maxUploadSize=20MB -->
+        <property name="maxUploadSize" value="20971520" />
+    </bean>
+
+    <mvc:resources location="/files/" mapping="/files/**" />
+
+
 </beans>  
